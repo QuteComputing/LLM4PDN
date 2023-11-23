@@ -1,0 +1,160 @@
+[
+    {
+        "id": "1905.05894",
+        "submitter": "Vitaliy Chiley",
+        "authors": "Vitaliy Chiley, Ilya Sharapov, Atli Kosson, Urs Koster, Ryan Reece,\n  Sofia Samaniego de la Fuente, Vishal Subbiah, Michael James",
+        "title": "Online Normalization for Training Neural Networks",
+        "comments": "Published at the Conference on Neural Information Processing Systems\n  (NeurIPS 2019), Vancouver, Canada. Code:\n  https://github.com/Cerebras/online-normalization",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "cs.LG stat.ML",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "abstract": "  Online Normalization is a new technique for normalizing the hidden\nactivations of a neural network. Like Batch Normalization, it normalizes the\nsample dimension. While Online Normalization does not use batches, it is as\naccurate as Batch Normalization. We resolve a theoretical limitation of Batch\nNormalization by introducing an unbiased technique for computing the gradient\nof normalized activations. Online Normalization works with automatic\ndifferentiation by adding statistical normalization as a primitive. This\ntechnique can be used in cases not covered by some other normalizers, such as\nrecurrent networks, fully connected networks, and networks with activation\nmemory requirements prohibitive for batching. We show its applications to image\nclassification, image segmentation, and language modeling. We present formal\nproofs and experimental results on ImageNet, CIFAR, and PTB datasets.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 15 May 2019 00:09:29 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Tue, 28 May 2019 23:29:33 GMT"
+            },
+            {
+                "version": "v3",
+                "created": "Tue, 3 Dec 2019 20:34:46 GMT"
+            }
+        ],
+        "update_date": "2019-12-05",
+        "authors_parsed": [
+            [
+                "Chiley",
+                "Vitaliy",
+                ""
+            ],
+            [
+                "Sharapov",
+                "Ilya",
+                ""
+            ],
+            [
+                "Kosson",
+                "Atli",
+                ""
+            ],
+            [
+                "Koster",
+                "Urs",
+                ""
+            ],
+            [
+                "Reece",
+                "Ryan",
+                ""
+            ],
+            [
+                "de la Fuente",
+                "Sofia Samaniego",
+                ""
+            ],
+            [
+                "Subbiah",
+                "Vishal",
+                ""
+            ],
+            [
+                "James",
+                "Michael",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "1807.06651",
+        "submitter": "Giannis Karamanolakis",
+        "authors": "Giannis Karamanolakis, Kevin Raji Cherian, Ananth Ravi Narayan, Jie\n  Yuan, Da Tang, Tony Jebara",
+        "title": "Item Recommendation with Variational Autoencoders and Heterogenous\n  Priors",
+        "comments": "Accepted for the 3rd Workshop on Deep Learning for Recommender\n  Systems (DLRS 2018), held in conjunction with the 12th ACM Conference on\n  Recommender Systems (RecSys 2018) in Vancouver, Canada",
+        "journal-ref": null,
+        "doi": "10.1145/3270323.327032",
+        "report-no": null,
+        "categories": "stat.ML cs.IR cs.LG",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "abstract": "  In recent years, Variational Autoencoders (VAEs) have been shown to be highly\neffective in both standard collaborative filtering applications and extensions\nsuch as incorporation of implicit feedback. We extend VAEs to collaborative\nfiltering with side information, for instance when ratings are combined with\nexplicit text feedback from the user. Instead of using a user-agnostic standard\nGaussian prior, we incorporate user-dependent priors in the latent VAE space to\nencode users' preferences as functions of the review text. Taking into account\nboth the rating and the text information to represent users in this multimodal\nlatent space is promising to improve recommendation quality. Our proposed model\nis shown to outperform the existing VAE models for collaborative filtering (up\nto 29.41% relative improvement in ranking metric) along with other baselines\nthat incorporate both user ratings and text for item recommendation.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 17 Jul 2018 20:14:02 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Sun, 7 Oct 2018 03:54:31 GMT"
+            }
+        ],
+        "update_date": "2018-10-09",
+        "authors_parsed": [
+            [
+                "Karamanolakis",
+                "Giannis",
+                ""
+            ],
+            [
+                "Cherian",
+                "Kevin Raji",
+                ""
+            ],
+            [
+                "Narayan",
+                "Ananth Ravi",
+                ""
+            ],
+            [
+                "Yuan",
+                "Jie",
+                ""
+            ],
+            [
+                "Tang",
+                "Da",
+                ""
+            ],
+            [
+                "Jebara",
+                "Tony",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "1812.10119",
+        "submitter": "Salah Zaiem",
+        "authors": "Salah Zaiem and Fatiha Sadat",
+        "title": "Sequence to Sequence Learning for Query Expansion",
+        "comments": "8 pages, 2 figures, AAAI-19 Student Abstract and Poster Program",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "cs.IR cs.CL stat.ML",
+        "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "abstract": "  Using sequence to sequence algorithms for query expansion has not been\nexplored yet in Information Retrieval literature nor in Question-Answering's.\nWe tried to fill this gap in the literature with a custom Query Expansion\nengine trained and tested on open datasets. Starting from open datasets, we\nbuilt a Query Expansion training set using sentence-embeddings-based Keyword\nExtraction. We therefore assessed the ability of the Sequence to Sequence\nneural networks to capture expanding relations in the words embeddings' space.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 25 Dec 2018 15:24:04 GMT"
+            }
+        ],
+        "update_date": "2018-12-27",
+        "authors_parsed": [
+            [
+                "Zaiem",
+                "Salah",
+                ""
+            ],
+            [
+                "Sadat",
+                "Fatiha",
+                ""
+            ]
+        ]
+    }
+]
